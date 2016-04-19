@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
+    tools:context="com.vadmin.tweet.TweetDetailActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/tweetDetailImg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/family_icon"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/userBlock">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/userName"
+                android:text="Sundari"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:textSize="40dp"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hai...Have a Good start!!!"
+                android:textSize="20dp"
+                android:textColor="@android:color/white"
+                android:textStyle="normal"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13th Feb 2014"
+                android:textStyle="normal"
+                android:textColor="@android:color/white"
+                android:textSize="16dp"
+                android:layout_gravity="center_horizontal"/>
+            </LinearLayout>
+        </LinearLayout>
+
+</RelativeLayout>
