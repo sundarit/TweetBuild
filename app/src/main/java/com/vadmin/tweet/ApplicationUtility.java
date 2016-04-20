@@ -16,15 +16,15 @@ public class ApplicationUtility {
             info = connectivityManager.getActiveNetworkInfo();
 
             if (info.getType() == ConnectivityManager.TYPE_WIFI) {
-                System.out.println(info.getTypeName());
+                //System.out.println(info.getTypeName());
                 flag = true;
             }
             if (info.getType() == ConnectivityManager.TYPE_MOBILE) {
-                System.out.println(info.getTypeName());
+                //System.out.println(info.getTypeName());
                 flag = true;
             }
         }catch (Exception exception) {
-            System.out.println("Exception at network connection....."+ exception);
+            //System.out.println("Exception at network connection....."+ exception);
         }
         return flag;
     }
