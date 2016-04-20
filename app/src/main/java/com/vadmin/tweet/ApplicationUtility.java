@@ -24,7 +24,7 @@ public class ApplicationUtility {
                 flag = true;
             }
         }catch (Exception exception) {
-            System.out.println("Exception at network connection....."+ exception);
+            //System.out.println("Exception at network connection....."+ exception);
         }
         return flag;
     }
